@@ -1,0 +1,11 @@
+EDGEONE MAKERS DEPLOY CHECKLIST
+[ ] Deploy index.html and app.js at project root
+[ ] Deploy edge-functions/[[default]].js
+[ ] Set ADMIN_USERNAME secret/environment variable
+[ ] Set ADMIN_PASSWORD secret/environment variable
+[ ] Set SESSION_SECRET to at least 32 random characters
+[ ] Enable KV Storage
+[ ] Create a namespace and bind it as mahigo_kv
+[ ] Redeploy after configuring the functions, secrets and KV binding
+[ ] Visit /api/health and confirm ok:true
+[ ] Sign in on the homepage
